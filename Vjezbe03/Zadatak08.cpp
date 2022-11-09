@@ -1,5 +1,4 @@
-/*Napišite program koji s tipkovnice učitava dva cijela broja te ispisuje sve
-brojeve od većeg prema manjem.*/
+/*Napišite program koji s tipkovnice učitava dva cijela broja te ispisuje sve brojeve od većeg prema manjem.*/
 
 #include <iostream>
 using namespace std;
