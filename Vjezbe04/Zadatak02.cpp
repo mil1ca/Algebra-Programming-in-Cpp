@@ -1,9 +1,9 @@
-/*Napišite program koji učitava redni broj dana u tjednu (1 7), te ispisuje puni naziv dana.*/
+/*Napišite program koji učitava redni broj dana u tjednu (1-7), te ispisuje puni naziv dana.*/
 
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	int redniBrojDana;
 	
@@ -36,8 +36,6 @@ int main(void) {
 	       cout << "Neispravan redni broj.";
 	       break;
 	}
-	
-	cout << endl;
 	
 	return 0;
 }
