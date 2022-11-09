@@ -1,9 +1,9 @@
-/*Napišite program koji ispisuje tri riječi: “Hello ”, “World”, “C++”, svaku u svom retku, te razdvojene s praznim retkom.*/
+/*Napišite program koji ispisuje tri riječi: “Hello”, “World”, “C++”, svaku u svom retku, te razdvojene s praznim retkom.*/
 
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	cout << "Hello" << endl;
 	cout << "World" << endl;
