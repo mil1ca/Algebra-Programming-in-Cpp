@@ -1,10 +1,10 @@
 /*Napišite program koji s tipkovnice učitava dva cijela broja i operaciju.
-Ispravne operacije su +, --, * , /. Ispišite*/
+Ispravne operacije su +, --, * , /. Ispišite rezultat.*/
 
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	int brojA, brojB;
 	char racunskaOperacija;
