@@ -1,9 +1,9 @@
-/*Napišite program koji s tastature učitava jedan cijeli broj te ispisuje umnožak s 16 i zbroj s 42.*/
+/*Napišite program koji s tastature učitava jedan cijeli broj te ispisuje umnožak sa 16 i zbroj sa 42.*/
 
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int broj;
     
