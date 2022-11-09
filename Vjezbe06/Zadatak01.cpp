@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-int main(void) {
+int main() {
     
     vector<int> poljeBrojeva;
     char nastavi;
@@ -29,8 +29,7 @@ int main(void) {
             cout << ", ";
         }
     }
-    
-    cout << endl;
+
     return 0;
     
 }
