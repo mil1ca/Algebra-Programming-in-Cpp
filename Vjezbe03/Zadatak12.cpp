@@ -12,7 +12,7 @@ int main() {
 	cout << "Unesite drugi broj > ";
 	cin >> drugi;
 	
-	bool brojJeProst = true;
+	bool brojJeProst;
 	int temp;
 	
 	//uzlazni redoslijed
@@ -22,7 +22,7 @@ int main() {
 	    prvi = temp;
 	} 
 	
-	for (int i = prvi; i < drugi; i++) {
+	for (int i = prvi; i <= drugi; i++) {
 	    for (int j = 2; j < i; j++) {
 	        if (i % j == 0) {
 	            brojJeProst = false;
