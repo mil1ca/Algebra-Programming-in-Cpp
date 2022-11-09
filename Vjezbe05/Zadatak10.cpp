@@ -6,7 +6,7 @@ Svi brojevi se prikazuju sortirano. U aplikaciji treba osigurati da korisnik ne 
 #include <ctime>
 using namespace std;
 
-int main(void) {
+int main() {
     
     srand(time(0));
     
@@ -25,8 +25,6 @@ int main(void) {
     int odigraniBroj;
     for (int i = 0; i < 7; i++) {
         bool brojJeVecOdigran;
-        //Ponavljaj unos brojeva dok se ne upise broj iz ranga 1-45
-        
         do {
             cout << "Odigraj " << i + 1 << ". broj > ";
             cin >> odigraniBroj;
