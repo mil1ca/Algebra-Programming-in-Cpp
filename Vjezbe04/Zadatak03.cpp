@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	int broj, okrenutiBroj = 0, rezultat;
 	
