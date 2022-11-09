@@ -1,5 +1,4 @@
-/*Napišite program koji učitava radijus kružnice te ispisuje njezinu površinu i
-opseg (P = r^2ℿ, O = 2rℿ).*/
+/*Napišite program koji učitava radijus kružnice te ispisuje njezinu površinu i opseg (P = r^2ℿ, O = 2rℿ).*/
 
 #define _USE_MATH_DEFINES
 
@@ -7,7 +6,7 @@ opseg (P = r^2ℿ, O = 2rℿ).*/
 #include <cmath>
 using namespace std;
 
-int main(void) {
+int main() {
     
     cout << "Izracunavanje povrsine i opsega kruznice." << endl;
     
