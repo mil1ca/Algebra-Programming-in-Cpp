@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	int polje[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 	
@@ -14,8 +14,6 @@ int main(void) {
 	        cout << polje[i] << " je neparan." << endl;
 	    }
 	}
-	
-	cout << endl;
-	
+
 	return 0;
 }
