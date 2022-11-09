@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	string recenica = "Koliko slova o ima u ovoj recenici?";
 	int brojac = 0;
@@ -14,7 +14,7 @@ int main(void) {
 	    }
 	}
 	
-	cout << "Recenica ima " << brojac << " slova 0." << endl;
+	cout << "Recenica ima " << brojac << " slova 'o'." << endl;
 	
 	return 0;
 }
