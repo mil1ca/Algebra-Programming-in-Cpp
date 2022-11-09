@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int prirodanBroj;
     cout << "Za kraj unosa unesite 0." << endl;
@@ -22,5 +22,5 @@ int main(void) {
     
     cout << "Najveci uneseni prirodan broj je " << najveci << "." << endl;
     
-	return 0;
+    return 0;
 }
