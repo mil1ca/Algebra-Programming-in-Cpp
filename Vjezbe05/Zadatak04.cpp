@@ -6,7 +6,7 @@ od kraja prema početku odvojene zarezom. Nakon zadnjeg ispisanog broja slijedi 
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	int polje[SIZE];
 	
