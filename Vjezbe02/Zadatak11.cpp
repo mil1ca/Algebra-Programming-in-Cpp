@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int visina1, visina2, visina3;
     
