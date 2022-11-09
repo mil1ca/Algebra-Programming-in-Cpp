@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     cout << "Izracunavanje povrsine i opsega pravokutnika." << endl;
     
