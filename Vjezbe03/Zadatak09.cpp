@@ -18,7 +18,7 @@ int main() {
 	    
 	} while (broj != 0);
 	
-	cout << counter;
+	cout << "Broj " << broj << " ima " << counter << " znamenki.";
   
 	return 0;
 }
