@@ -1,6 +1,7 @@
-/*Napišite program koji učitava visinu osobe u centimetrima i ime te osobe, te ispisuje poruku oblika (za unesene podatke 176 i Pero)*/
+/*Napišite program koji učitava visinu osobe u centimetrima i ime te osobe, te ispisuje poruku oblika "Osoba Pero je visoka 176 centrimetara." (za unešene podatke 176 i Pero)*/
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
