@@ -5,7 +5,7 @@ Ispišite to polje u obrnutom redoslijedu i izračunajte sumu brojeva u polju.*/
 #include <vector>
 using namespace std;
 
-int main(void) {
+int main() {
     
     vector<int> poljeBrojeva;
     int suma = 0;
@@ -22,8 +22,9 @@ int main(void) {
         suma += poljeBrojeva[i];
     }
     cout << endl;
+    
     cout << "Suma tih brojeva je " << suma << "." << endl;
-    cout << endl;
+    
     return 0;
     
 }
