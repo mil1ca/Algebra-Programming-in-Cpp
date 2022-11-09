@@ -16,7 +16,7 @@ int main() {
 	    broj = broj / 10;
 	    counter++;
 	    
-	} while (broj > 0);
+	} while (broj != 0);
 	
 	cout << counter;
   
