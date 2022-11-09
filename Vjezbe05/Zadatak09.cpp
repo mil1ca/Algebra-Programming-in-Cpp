@@ -6,7 +6,7 @@
 #include <ctime>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int polje[SIZE];
     
@@ -31,5 +31,5 @@ int main(void) {
     cout << "Umnozak polja je " << umnozak << "." << endl;
     cout << "Aritmeticka sredina polja je " << aritSredina << "." << endl;
     
-	return 0;
+    return 0;
 }
