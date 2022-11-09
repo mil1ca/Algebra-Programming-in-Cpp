@@ -6,7 +6,7 @@ Ispišite elemente polja odvojene zarezom. Nakon zadnjeg elementa stavite točku
 #include <vector>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int broj;
     
@@ -31,7 +31,7 @@ int main(void) {
             cout << ", ";
         }
     }
-    cout << endl;
+
     return 0;
     
 }
