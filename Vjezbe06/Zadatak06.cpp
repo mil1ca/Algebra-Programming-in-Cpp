@@ -6,7 +6,7 @@ Ispišite polje parnih u normalnom, a polje neparnih u obrnutom redoslijedu.*/
 #include <vector>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int broj;
     cout << "Unesite koliko brojeva zelite upisati > ";
@@ -29,6 +29,7 @@ int main(void) {
             neparni.push_back(polje[i]);
         }
     }
+    
     cout << "Parni brojevi:" << endl;
     for (int i = 0; i < parni.size(); i++) {
         cout << parni[i];
@@ -39,6 +40,7 @@ int main(void) {
         }
     }
     cout << endl;
+    
     cout << "Neparni brojevi:" << endl;
     for (int i = neparni.size() - 1; i >= 0; i--) {
         cout << neparni[i];
@@ -48,8 +50,7 @@ int main(void) {
             cout << ", ";
         }
     }
-    cout << endl;
-    
+
     return 0;
     
 }
