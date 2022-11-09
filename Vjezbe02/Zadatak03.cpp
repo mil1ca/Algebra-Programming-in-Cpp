@@ -5,7 +5,7 @@ Npr. za umnožak je potrebno ispisati: “10 * 25 = 250”.*/
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 	
 	int x = 10;
 	int y = 25;
