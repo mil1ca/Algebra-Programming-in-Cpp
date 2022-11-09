@@ -8,7 +8,7 @@ odvojene zarezom.*/
 #include <vector>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int broj;
     
