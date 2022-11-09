@@ -7,7 +7,7 @@ elemente. Polje popunite slučajnim brojevima.*/
 #include <ctime>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int polje[SIZE];
 	
@@ -22,6 +22,7 @@ int main(void) {
     }
     
     int najmanji = polje[0], najveci = polje[0];
+	
     for (int i = 0; i < SIZE; i++) {
         if (polje[i] < najmanji) {
             najmanji = polje[i];
@@ -34,5 +35,5 @@ int main(void) {
     cout << "Najmanji broj je " << najmanji << "." << endl;
     cout << "Najveci broj je " << najveci << "." << endl;
 	
-	return 0;
+    return 0;
 }
