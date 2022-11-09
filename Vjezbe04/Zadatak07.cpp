@@ -4,7 +4,7 @@ ispisuje se poruka: Negativan uspjeh. Ako se unese vrijednost koja nije iz raspo
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     float ocjena, brojac = 0, suma = 0, srednjaOcjena;
     
@@ -32,5 +32,5 @@ int main(void) {
     
     cout << "Srednja ocjena ucenika je " << srednjaOcjena << "." << endl;
     
-	return 0;
+    return 0;
 }
