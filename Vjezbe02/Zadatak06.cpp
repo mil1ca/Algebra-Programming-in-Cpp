@@ -4,7 +4,7 @@ Npr. za broj 42, potrebno je ispisati 24.*/
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int broj = 25;
     
