@@ -6,7 +6,7 @@ cijeli broj, te ispisuje ostatke svakog broja iz polja pri dijeljenju s njim.*/
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	int polje[SIZE];
 	int broj;
@@ -25,5 +25,6 @@ int main(void) {
 	for (int i = 0; i < SIZE; i++) {
 	    cout << polje[i] << " % " << broj << " = " << polje[i] % broj << endl;
 	}
+	
 	return 0;
 }
