@@ -10,7 +10,7 @@ int main() {
 	cout << "Unesite broj > ";
 	cin >> broj;
 	
-	bool brojJeProst = true;
+	bool brojJeProst;
 	
 	for (int i = 2; i < broj; i++) {
 	    if (broj % i == 0) {
