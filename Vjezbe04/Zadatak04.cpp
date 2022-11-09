@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int prirodniBroj;
     
@@ -18,8 +18,6 @@ int main(void) {
 	        cout << i << " ";
 	    }
 	}
-	
-	cout << endl;
-	
+
 	return 0;
 }
