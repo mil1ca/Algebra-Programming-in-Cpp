@@ -12,8 +12,8 @@ int main() {
 	cout << "Unesite sirinu pravokutnika > ";
 	cin >> sirina;
 	
-	for (int i = 1; i <= visina; i++) {
-	    for (int j = 1; j <= sirina; j++) {
+	for (int i = 0; i < visina; i++) {
+	    for (int j = 0; j < sirina; j++) {
 	        cout << " * ";
 	    }
 	    cout << endl;
