@@ -4,7 +4,7 @@ Ispravne operacije su +, --, * , /. Ispišite*/
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(void) {
 
 	int brojA, brojB;
 	char racunskaOperacija;
