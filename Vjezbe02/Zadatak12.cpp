@@ -5,7 +5,7 @@ Izračunajte prosječnu udaljenost, te standardnu devijaciju bacanja.*/
 #include <cmath>
 using namespace std;
 
-int main(void) {
+int main() {
     
     double daljina1 = 92;
     double daljina2 = 97;
