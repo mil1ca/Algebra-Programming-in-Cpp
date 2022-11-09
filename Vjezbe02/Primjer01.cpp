@@ -1,11 +1,11 @@
-/*Napišite program koji ispisuje poruku: “ Hello , World*/
+/*Napišite program koji ispisuje poruku: “Hello, World"*/
 
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(void) {
 
-	cout << "Hello World" << endl;
+	cout << "Hello, World" << endl;
 
 	return 0;
 }
