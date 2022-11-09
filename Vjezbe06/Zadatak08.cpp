@@ -8,7 +8,7 @@ Mora se unijeti odgovarajući redni broj, a u protivnom se ispisuje greška "Kri
 #include <string>
 using namespace std;
 
-int main(void) {
+int main() {
     
     vector<string> imena;
     vector<string> prezimena;
@@ -44,7 +44,6 @@ int main(void) {
             break;
         }
     } while (broj < 1 || broj > imena.size());
-    
     
     return 0;
     
