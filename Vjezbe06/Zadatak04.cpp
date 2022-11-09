@@ -6,7 +6,7 @@ Nakon unosa iz raspona (1 broj) upišite sve parne brojeve u polje. Ispišite el
 #include <string>
 using namespace std;
 
-int main(void) {
+int main() {
     
     string recenica;
     vector<char> poljeSamoglasnika;
@@ -55,7 +55,6 @@ int main(void) {
         }
     }
     
-
     cout << "Broj ponavljanja samoglasnika:" << endl;
     cout << "a = " << a << " puta." << endl;
     cout << "e = " << e << " puta." << endl;
