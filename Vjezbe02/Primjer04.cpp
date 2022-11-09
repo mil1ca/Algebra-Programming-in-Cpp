@@ -4,7 +4,7 @@ Ispišite varijablu broj na ekran.*/
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	int broj;
 	
