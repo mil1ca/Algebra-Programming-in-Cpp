@@ -1,15 +1,11 @@
-/*Napišite program koji ispisuje poruku: 
-
-Dobar dan
-
-Dobro jutro*/
+/*Napišite program koji ispisuje poruku: "Dobar dan/nDobro jutro"*/
 
 #include <iostream>
 using namespace std;
 
 int main() {
 
-	cout << endl << "Dobar dan" << endl << "Dobro jutro";
+	cout << "Dobar dan" << endl << "Dobro jutro";
 
 	return 0;
 }
