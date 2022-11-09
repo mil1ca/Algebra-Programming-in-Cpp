@@ -7,7 +7,7 @@ Npr. za polje1 == {1, 3, 2}, polje2 == {16, 42, 46} potrebno je ispisati: 16, 46
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
 
 	int raspored[3];
 	int brojevi[3];
@@ -42,8 +42,6 @@ int main(void) {
 	        cout << ", ";
 	    }
 	}
-	
-	cout << endl;
 	
 	return 0;
 }
