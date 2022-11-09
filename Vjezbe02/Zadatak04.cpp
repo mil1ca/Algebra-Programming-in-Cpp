@@ -4,7 +4,7 @@ Svaka znamenka treba biti ispisana u zasebnom retku. Broj unesite direktno u pro
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int broj = 20;
     
