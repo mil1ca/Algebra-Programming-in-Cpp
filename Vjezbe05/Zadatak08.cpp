@@ -10,7 +10,9 @@ using namespace std;
 int main(void) {
     
     int polje[SIZE];
-    
+	
+    srand(time(0));
+	
     for (int i = 0; i < SIZE; i++) {
         polje[i] = rand() % 100;
     }
