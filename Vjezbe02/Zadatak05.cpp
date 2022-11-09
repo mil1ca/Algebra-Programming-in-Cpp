@@ -5,7 +5,7 @@ Broj unesite direktno u programu.*/
 #include <iostream>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int broj = 256;
     int lijeva, srednja, desna;
