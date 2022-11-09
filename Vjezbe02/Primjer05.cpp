@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main(void) {
 
 	string ime;
 	int visina;
