@@ -1,3 +1,3 @@
-# Vjezbe-Algebra-Cpp
+# Algebra zadaci - Programiranje Cpp
 
-Zadaci sa laboratorijskih vježbi iz kolegija Programiranje @ Algebra University
+Zadaci sa laboratorijskih vježbi i predavanja iz kolegija Programiranje @Algebra Uni
