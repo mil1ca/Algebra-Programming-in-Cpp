@@ -7,7 +7,7 @@ Ispišite elemente polja odvojene zarezom.*/
 #include <vector>
 using namespace std;
 
-int main(void) {
+int main() {
     
     int polje[SIZE];
     
@@ -33,9 +33,7 @@ int main(void) {
             cout << ", ";
         }
     }
-    
-    cout << endl;
-    
+
     return 0;
     
 }
