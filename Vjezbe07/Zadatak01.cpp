@@ -1,4 +1,4 @@
-/*Napišite funkciju koja vraća kvadrat proslijeđenog joj cijelog broja.*/
+// Napišite funkciju koja vraća kvadrat proslijeđenog joj cijelog broja.
 
 #include <iostream>
 using namespace std;
