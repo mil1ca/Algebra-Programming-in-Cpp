@@ -6,8 +6,6 @@
 #include <iostream>
 using namespace std;
 
-
-// Funkcija koja vraća sumu od 1 do primljenog broja
 int suma_parnih(int x, int y) 
 {
     int suma = 0;
