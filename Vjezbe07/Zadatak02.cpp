@@ -7,7 +7,8 @@ using namespace std;
 // Funkcija koja ispisuje brojeve od 1 do n
 void print(int n) 
 {
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; i++) 
+    {
         cout << i << " ";
     }
 }
