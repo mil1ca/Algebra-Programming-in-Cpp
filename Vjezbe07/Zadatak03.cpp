@@ -5,7 +5,7 @@ using namespace std;
 
 
 // Funkcija koja ispisuje brojeve od većeg ka manjem
-void printBiggerToSmaller(int bigger, int smaller) 
+void print_bigger_to_smaller(int bigger, int smaller) 
 {
     
     // Ako je prvi broj manji, zamijeni ih
@@ -31,7 +31,7 @@ int main(void)
     cin >> number_b;
     
     cout << "Ispis:" << endl;
-    printBiggerToSmaller(number_a, number_b);
+    print_bigger_to_smaller(number_a, number_b);
     
     return 0;
 }
