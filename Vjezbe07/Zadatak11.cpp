@@ -3,8 +3,7 @@
 #include <iostream>
 using namespace std;
 
-
-// Funkcija koja vraća obrnuti broj danog cijelog broja
+// Funkcija koja vraća istinu ako je proslijeđeni broj palindroman
 bool palindrome(int number) 
 {
     bool is_palindrome = false;
@@ -26,7 +25,6 @@ bool palindrome(int number)
     
     return is_palindrome;
 } 
-
 
 int main(void) 
 {
